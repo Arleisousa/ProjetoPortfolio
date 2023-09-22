@@ -29,6 +29,7 @@
     transition: color 0.3s ease; 
 }
 
+
 header a::before {
     content: "";
     position: absolute;
@@ -42,7 +43,8 @@ header a::before {
     transition: transform 0.3s ease;
   }
 
-  nav a:hover::before {
+  nav a:hover::before,
+  nav a.ativo::before {
     transform: scaleX(1); 
   }
 
