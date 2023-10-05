@@ -12,3 +12,6 @@ links.forEach(link => {
         event.target.classList.add('ativo');
     });
 });
+
+
+AOS.init();
